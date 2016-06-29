@@ -1,0 +1,102 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.accord button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6a6c72+0,494a4e+100 */
+  background: #6a6c72;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #6a6c72 0%, #494a4e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #6a6c72 0%, #494a4e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #6a6c72 0%, #494a4e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a6c72', endColorstr='#494a4e',GradientType=0 );
+  /* IE6-9 */
+  border: 0;
+  outline: none;
+  color: #fff;
+  cursor: pointer; }
+  .accord button i {
+    font-size: 15px;
+    margin: 0 10px; }
+  .accord button .wrapper {
+    display: flex;
+    align-items: center; }
+  .accord button .main-counter {
+    background: #3F4146;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px; }
+  .accord button:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3cb4d+0,6b901a+100 */
+    background: #a3cb4d;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #a3cb4d 0%, #6b901a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a3cb4d 0%, #6b901a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a3cb4d 0%, #6b901a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3cb4d', endColorstr='#6b901a',GradientType=0 );
+    /* IE6-9 */
+    color: #3E5706; }
+    .accord button:hover .main-counter {
+      color: #fff;
+      background: #3E5706; }
+.accord ul {
+  background: #E5E5E5;
+  display: none; }
+  .accord ul li:not(:last-child) {
+    border-bottom: 1px solid #CFCFCF; }
+  .accord ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8E8484; }
+    .accord ul li a:hover {
+      color: #3E5706; }
+      .accord ul li a:hover .wrapper {
+        color: #3E5706; }
+        .accord ul li a:hover .wrapper .number {
+          color: #3E5706; }
+    .accord ul li a .wrapper {
+      display: flex;
+      align-items: center; }
+      .accord ul li a .wrapper .number {
+        color: #B1B1AF;
+        margin: 0 10px; }
+    .accord ul li a .sub-counter {
+      margin: 0 15px;
+      padding: 5px 15px;
+      border: 1px solid #CFCFCF;
+      border-radius: 20px; }
+
+.selected button {
+  background: #a3cb4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a3cb4d 0%, #6b901a 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a3cb4d 0%, #6b901a 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a3cb4d 0%, #6b901a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3cb4d', endColorstr='#6b901a',GradientType=0 );
+  /* IE6-9 */
+  color: #3E5706; }
+  .selected button .main-counter {
+    color: #fff;
+    background: #3E5706; }
+.selected ul {
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */
