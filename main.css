@@ -55,7 +55,8 @@ a {
       background: #3E5706; }
 .accord ul {
   background: #E5E5E5;
-  display: none; }
+  display: none;
+  transition: 0.4s; }
   .accord ul li:not(:last-child) {
     border-bottom: 1px solid #CFCFCF; }
   .accord ul li a {
@@ -96,7 +97,5 @@ a {
   .selected button .main-counter {
     color: #fff;
     background: #3E5706; }
-.selected ul {
-  display: block; }
 
 /*# sourceMappingURL=main.css.map */

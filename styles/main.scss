@@ -1,6 +1,3 @@
-
-
-
 ul {
   list-style: none;
   margin: 0;
@@ -56,16 +53,17 @@ a {
       }
     }
   }
+
   ul {
     background: #E5E5E5;
     display: none;
+    transition: 0.4s;
     li {
       &:not(:last-child) {
         border-bottom: 1px solid #CFCFCF;
       }
       a {
         display: flex;
-        // flex-direction: row;
         align-items: center;
         justify-content: space-between;
         color: #8E8484;
@@ -87,7 +85,6 @@ a {
           }
         }
         .sub-counter {
-          // align-self: flex-start;
           margin: 0 15px;
           padding: 5px 15px;
           border: 1px solid #CFCFCF;
@@ -113,6 +110,6 @@ a {
     }
   }
   ul {
-    display: block;
+    // display: block;
   }
 }
